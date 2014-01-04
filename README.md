@@ -1,4 +1,44 @@
 Peercoin-Tracker
 ================
 
-Unofficial Peercoin tracking Chrome extension.
+<p>This is an unofficial D7 PPC mining pool tracking application. This chrome extension allows you to enter your API key found in your "Account" page of your D7 mining account and track various aspects of your workers, pool, and balance.</p>
+<p>The application allows you to track:</p>
+<ul>
+	<li>Account Balance</li>
+	<li>Unconfimed Balance</li>
+	<li>Hash rate</li>
+	<li>Current Workers</li>
+	<li>Pool Stats</li>
+	<li>Recent Blocks</li>
+</ul>
+
+<p>Planned features:</p>
+<ul>
+	<li>BTCe Price checking through BTCe API</li>
+	<li>Local storage API saving</li>
+	<li>Possible CSV export for spread sheeds</li>
+	<li>Integration with other pools for shared stats</li>
+</ul>
+
+<p>Known Bugs</p>
+<ul>
+	<li>The app doesn't save API keys YET...</li>
+	<li>The hashrate is sometimes not the proper amount, this is on D7's end</li>
+</ul>
+
+Important Links
+===============
+
+<p>This application is not affilaited with the D7 mining pool or Peercoin directly and is made purely for your convenience. It is a work in progess but feel free to poke around the code, fork, whatever you like. Also report bugs and suggest features</p>
+<ul>
+	<li>This extension was created by: <a class="ext" href="http://cmdann.ca">CMDann.ca</a></li>
+	<li>Source Code: <a class="ext" href="#">GitHub</a></li>
+	<li>Pool stats by: <a class="ext" href="https://ppcoin.d7.lt">D7 Mining Pool</a></li>
+	<li>Peercoin site: <a class="ext" href="http://peercoin.net/">Peercoin</a></li>
+</ul>
+
+Change Log
+==========
+<pre>
+01.04.2014 - Added initial files from local project
+</pre>
