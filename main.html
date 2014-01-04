@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<!-- Styes -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<h2 id="tabs-examples"><img height="50" width="50" src="img/coin.jpg">Peercoin Tracker</h2>
+		    <p>View your D7 pool balance, account information and blocks at a glance.</p>
+		    <div class="bs-example bs-example-tabs">
+		      <ul id="myTab" class="nav nav-tabs">
+		        <li class="active"><a href="#user" data-toggle="tab">User</a></li>
+		        <li><a href="#worker" data-toggle="tab">Workers</a></li>
+		        <li><a href="#pool" data-toggle="tab">Pool</a></li>
+		        <li><a href="#blocks" data-toggle="tab">Blocks</a></li>
+		        <li><a href="#about" data-toggle="tab">About App</a></li>
+		        <li><a href="#settings" data-toggle="tab">Settings</a></li>
+		      </ul>
+		      <div id="myTabContent" class="tab-content">
+		        <div class="tab-pane fade in active" id="user">
+		        	<div class="user_output">
+		        		<!-- Output Area -->
+		        		<h4 class='no_api'>Please enter your API key</h4>
+		        	</div>
+		        </div>
+
+		        <div class="tab-pane fade" id="worker">
+		        	<div class="worker_output">
+		        		<!-- Output Area -->
+		        	</div>
+		        </div>
+
+		        <div class="tab-pane fade" id="pool">
+		        	<div class="pool_output">
+		        		<!-- Output Area -->
+		        		<img src="img/d7.png">
+		        	</div>
+		        </div>
+
+		        <div class="tab-pane fade" id="blocks">
+		        	<div class="block_output">
+		        		<!-- Output Area -->
+		        	</div>
+		        </div>
+
+		        <div class="tab-pane fade" id="about">
+		        	<div class="about_content">
+		        		<img src="img/logo.png">
+		        		<h3>About Application</h3>
+		        		<p>This is a simple application created unnoffcially to work with the D7 PPC mining pool's api to allow you to monitor and track your PPC miners. This application is not affiliated with D7 Mining Pool or Peercoin.</p>
+		        		<p>Here are some useful links:</p>
+		        		<ul>
+		        			<li>This extension was created by: <a class="ext" href="http://cmdann.ca">CMDann.ca</a></li>
+		        			<li>Source Code: <a class="ext" href="#">GitHub</a></li>
+		        			<li>Pool stats by: <a class="ext" href="https://ppcoin.d7.lt">D7 Mining Pool</a></li>
+		        			<li>Peercoin site: <a class="ext" href="http://peercoin.net/">Peercoin</a></li>
+		        		</ul>
+		        	</div>
+		        </div>
+
+		        <div class="tab-pane fade" id="settings">
+		        	<div class="settings">
+						<div class="form-group">
+							<label class="sr-only" for="api_key_input">API Key</label>
+							<input type="text" class="form-control" id="api_key_input" placeholder="Enter API key">
+						</div>
+						<button type="submit" class="btn btn-default">Save Key</button>
+		        	</div>
+		        </div>
+		      </div>
+		    </div><!-- /example -->
+		</div>
+	</body>
+
+	<footer>
+		<!-- Scripts -->
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/custom.js"></script>
+	</footer>
+</html>
