@@ -2,10 +2,10 @@
 $(document).ready(function() {
 
 	// Grab the api key from storeage.
-	// var api_key = localStorage["api"];
-	var api_key = "ENTER YOUR API KEY!!"; // Test API
+	var api_key = localStorage["api"];
+	// var api_key = "9e6a85cbab876b4cd6407037b54b5bc0"; // Test API
 
-	if (api_key === "" || api_key === null ){
+	if (api_key == "" || !(api_key) ){
 		
 		// Output the error
 		$( "div.user_output" ).append("<h4 class='no_api'>Please enter your API key</h4>");
@@ -162,12 +162,6 @@ $(document).ready(function() {
 	        });
 	    });
 	}
-});
-
-// Save API click event
-$("#api_key_input").click(function(){
-	var data = document.getElementById("api_key_input").value;
-	localStorage["api"] = data; 
 });
 
 // Add an exent listern to external links
