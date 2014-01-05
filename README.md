@@ -2,7 +2,7 @@ Peercoin-Tracker
 ================
 <a href="https://coderwall.com/cmdann"><img alt="Endorse CMDann on Coderwall" src="https://api.coderwall.com/cmdann/endorsecount.png" /></a>
 
-<p>This is an unofficial D7 PPC mining pool tracking application. This chrome extension allows you to enter your API key found in your "Account" page of your D7 mining account and track various aspects of your workers, pool, and balance.</p>
+<p>This is an unofficial D7 PPC mining pool tracking application. This chrome extension allows you to enter your API key found in your "Account" page of your D7 mining account and track various aspects of your workers, pool, and balance. You can download the extension on the <a href="https://chrome.google.com/webstore/detail/peercoin-tracker/caonhpnbaplpepiddbiboolpmacjphjf">Chrome Web Store</a></p>
 <p>The application allows you to track:</p>
 <ul>
 	<li>Account Balance</li>
