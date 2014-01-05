@@ -35,7 +35,7 @@ Important Links
 <p>This application is not affilaited with the D7 mining pool or Peercoin directly and is made purely for your convenience. It is a work in progess but feel free to poke around the code, fork, whatever you like. Also report bugs and suggest features</p>
 <ul>
 	<li>This extension was created by: <a class="ext" href="http://cmdann.ca">CMDann.ca</a></li>
-	<li>Source Code: <a class="ext" href="#">GitHub</a></li>
+	<li>Source Code: <a class="ext" href="https://github.com/CMDann/Peercoin-Tracker">GitHub</a></li>
 	<li>Pool stats by: <a class="ext" href="https://ppcoin.d7.lt">D7 Mining Pool</a></li>
 	<li>Peercoin site: <a class="ext" href="http://peercoin.net/">Peercoin</a></li>
 </ul>
@@ -43,5 +43,10 @@ Important Links
 Change Log
 ==========
 <pre>
-01.04.2014 - Added initial files from local project
+01.04.2014 - Added ability to save API key
+           - Added options page
+           - Moved about information to options page
+           - Fixed "undefined" values
+
+01.03.2014 - Added initial files from local project
 </pre>

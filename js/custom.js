@@ -3,7 +3,6 @@ $(document).ready(function() {
 
 	// Grab the api key from storeage.
 	var api_key = localStorage["api"];
-	// var api_key = "9e6a85cbab876b4cd6407037b54b5bc0"; // Test API
 
 	if (api_key == "" || !(api_key) ){
 		
