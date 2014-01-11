@@ -16,14 +16,12 @@ Peercoin-Tracker
 <p>Planned features:</p>
 <ul>
 	<li>BTCe Price checking through BTCe API</li>
-	<li>Local storage API saving</li>
 	<li>Possible CSV export for spread sheeds</li>
 	<li>Integration with other pools for shared stats</li>
 </ul>
 
 <p>Known Bugs</p>
 <ul>
-	<li>The app doesn't save API keys YET...</li>
 	<li>The hashrate is sometimes not the proper amount, this is on D7's end</li>
 </ul>
 
